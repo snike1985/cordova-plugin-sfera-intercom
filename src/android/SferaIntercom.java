@@ -1,4 +1,4 @@
-package cordova-plugin-sfera-intercom;
+package cordova.plugin.sfera.intercom;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
