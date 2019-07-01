@@ -1,0 +1,25 @@
+{
+  "name": "cordova-plugin-sfera-intercom",
+  "version": "1.0.0",
+  "description": "Cordova plugin for Sfera Intercom",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snike1985/cordova-plugin-sfera-intercom.git"
+  },
+  "keywords": [
+    "Sfera",
+    "Intercom",
+    "Cordova",
+    "Plugin"
+  ],
+  "author": "Alex Serga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snike1985/cordova-plugin-sfera-intercom/issues"
+  },
+  "homepage": "https://github.com/snike1985/cordova-plugin-sfera-intercom#readme"
+}
