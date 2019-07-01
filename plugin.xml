@@ -6,7 +6,7 @@
     <name>SferaIntercom</name>
 
     <js-module name="SferaIntercom" src="www/SferaIntercom.js">
-        <clobbers target="cordova.plugins.SferaIntercom"/>
+        <clobbers target="SferaIntercom"/>
     </js-module>
 
     <platform name="android">
