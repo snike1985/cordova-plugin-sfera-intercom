@@ -20,9 +20,22 @@
     </platform>
 
     <platform name="ios">
+        <preference name="pods_ios_min_version" value="9.0" />
+        <preference name="pods_use_frameworks" value="true" />
         <podspec>
+            <config>
+                <source url="https://github.com/brightcove/BrightcoveSpecs.git" />
+                <source url="https://github.com/CocoaPods/Specs.git"/>
+            </config>
             <pods use-frameworks="true">
-                <pod name="linphone-sdk" spec="4.2" />
+                <pod name="AFNetworking" spec="~> 3.2" />
+                <pod name="SDWebImage" spec="~> 4.0" />
+                <pod name="Eureka" swift-version="3.3" />
+                <pod name="AcknowList" />
+                <pod name="Brightcove-Player-Core" spec="~> 6.3.4" />
+                <pod name="Foobar1" git="git@github.com:hoge/foobar1.git" configurations="Debug"/>
+                <pod name="Foobar2" git="git@github.com:hoge/foobar2.git" branch="next" configurations="Debug,Release"/>
+                <pod name="FoobarSwift" swift-version="4.1" />
             </pods>
         </podspec>
         <config-file parent="/*" target="config.xml">
