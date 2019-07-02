@@ -6,12 +6,12 @@
   // Member variables go here.
 }
 
-- (void)coolMethod:(CDVInvokedUrlCommand*)command;
+- (void)incomingCall:(CDVInvokedUrlCommand*)command;
 @end
 
 @implementation SferaIntercom
 
-- (void)coolMethod:(CDVInvokedUrlCommand*)command
+- (void)incomingCall:(CDVInvokedUrlCommand*)command
 {
     CDVPluginResult* pluginResult = nil;
     NSString* echo = [command.arguments objectAtIndex:0];
