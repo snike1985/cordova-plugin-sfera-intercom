@@ -22,18 +22,11 @@
     <platform name="ios">
         <podspec>
             <config>
-                <source url="https://github.com/brightcove/BrightcoveSpecs.git" />
+                <source url="https://gitlab.linphone.org/BC/public/podspec.git" />
                 <source url="https://github.com/CocoaPods/Specs.git"/>
             </config>
-            <pods use-frameworks="true">
-                <pod name="AFNetworking" spec="~> 3.2" />
-                <pod name="SDWebImage" spec="~> 4.0" />
-                <pod name="Eureka" swift-version="3.3" />
-                <pod name="AcknowList" />
-                <pod name="Brightcove-Player-Core" spec="~> 6.3.4" />
-                <pod name="Foobar1" git="git@github.com:hoge/foobar1.git" configurations="Debug"/>
-                <pod name="Foobar2" git="git@github.com:hoge/foobar2.git" branch="next" configurations="Debug,Release"/>
-                <pod name="FoobarSwift" swift-version="4.1" />
+            <pods ios-min-version="9.0" use-frameworks="true">
+                <pod name="linphone-sdk" version="4.2" />
             </pods>
         </podspec>
         <config-file parent="/*" target="config.xml">
