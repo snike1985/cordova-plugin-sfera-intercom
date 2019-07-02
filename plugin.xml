@@ -20,11 +20,19 @@
     </platform>
 
     <platform name="ios">
+        <preference name="pods_ios_min_version" value="9.0" />
+        <preference name="pods_use_frameworks" value="true" />
+        <podspec>
+            <pods use-frameworks="true">
+                <pod name="linphone-sdk" spec="4.2" />
+            </pods>
+        </podspec>
         <config-file parent="/*" target="config.xml">
             <feature name="SferaIntercom">
                 <param name="ios-package" value="SferaIntercom"/>
             </feature>
         </config-file>
         <source-file src="src/ios/SferaIntercom.m"/>
+
     </platform>
 </plugin>
